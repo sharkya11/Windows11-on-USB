@@ -1,1 +1,23 @@
+Requirements
+1. USB Drive (Faster the better)
+2. Rufus
 
+Actions
+1. Download Windows ISO version from Microsoft (64 bit Multi edition versions preffered)
+2. If windows media tool has to be used. Make sure to select 'create installation media "
+3 Follow default setting, select ISO file. 
+
+4. Open RUFUS, BOOT selection should be "DISK or ISO Iimage" 
+5. Click SELECT and give the location
+6. Select "Winodws to GO" from image option.
+7. Partition SCHEME GPT and Target system UEFY (non CSM)
+8. If device selection is not available, Click Advanced drive  properties. Then tick list usb hard drives. And make sure you're selecting the right usb beacause it will wipe everthing on that USB.
+9 Volume lable can be changed as desired. 
+10. Click start and select which version of windws need to be installed.
+11. It would be important to disable secure boot (BIOS SETUP) for boot the usb windows version. If bit locker enabled. Disabling secure boot will likely trigger and ask for  the bit locker decryption key
+https://www.youtube.com/watch?v=w34x1kBZN6c&t
+
+
+Differences between windows to go and typical 
+
+https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/deployment/windows-to-go/windows-to-go-overview
